@@ -1,0 +1,147 @@
+.footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+
+.logo-foot {
+    color: var(--white-color);
+    display: block;
+    margin-bottom: 20px;
+
+    
+}
+.address {
+    font-style:normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    display: block;
+    margin-bottom: 9px;
+    
+}
+.contact {
+    font-style:normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--contacts-color);
+    display: block;
+    margin-bottom: 9px;
+}
+
+.contact-last {
+    margin-bottom: 0;
+}
+
+
+.footer-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer-soc-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.footer-soc-item {
+    width: 44px;
+    height: 44px;
+}
+
+.footer-soc-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms var(--cubic);
+
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+    }
+}
+
+.footer-soc-link {
+    fill: var(--white-color);
+}
+
+
+
+.footer-input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: transparent;
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    outline: none;
+    color: var(--white-color);
+
+    &:focus {
+        border-color: var(--accent-color);
+    }
+
+}
+
+  
+
+.footer-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 28px;
+    position: relative;
+    width: 200px;
+    transition: background-color 250ms var(--cubic);
+
+    &:hover {
+        background-color: #188CE8
+    }
+}
+
+
+
+
+.btn-icon {
+    fill: var(--white-color);
+    margin-left: 10px;
+}
+
+.input-footer-wrap {
+    display: flex;
+    gap: 12px;
+}

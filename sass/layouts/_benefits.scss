@@ -1,0 +1,51 @@
+.benefits__header, .portfolio-header {
+    display:none; 
+}
+
+.benefits__item {
+    width: 270px;
+}
+
+
+
+.benefits__icon{
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+
+.benefits__list, .work-section__list, .team-list {
+    display: flex;
+    gap: 30px;
+
+}
+
+
+.benefits__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-title-color);
+    margin-bottom: 10px;
+    /* width: calc((100% - 90px) / 4); 
+    width: 270px; */
+}
+
+.benefits__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    /* width: calc((100% - 90px) / 4); 
+    width: 270px; */
+    margin: 0;
+
+}

@@ -1,0 +1,89 @@
+.header {
+    border-bottom: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    gap: 50px;
+}
+
+.header__navigation{
+    margin-right: auto;
+    display: flex;
+
+}
+
+.header__logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: inherit;
+    margin-right: 93px;
+}
+
+.logo {
+    font-family: 'Raleway';
+    color: var(--accent-color);
+}
+
+.header__item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-title-color);
+    transition: color 250ms var(--cubic);
+    position: relative;
+   
+    &:hover, &:focus
+    {
+        fill: var(--accent-color);
+        color: var(--accent-color);
+        
+    }
+}
+
+
+.header__item.header__item--current::after {
+    content: "";
+    display: block;
+    width: 100%;
+    background-color: var(--accent-color);
+    height: 4px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -28px;
+    opacity: 1;
+}
+
+.header__contact {
+    font-weight: 500;
+    font-size: 14px; 
+    color: var(--text-color);
+
+    transition: color 250ms var(--cubic);
+
+&:hover, &:focus
+ {
+    fill: var(--accent-color);
+    color: var(--accent-color);
+    
+}
+}
+
+
+
+.header__icon {
+    color: var(--text-title-color);
+    margin-right: 10px;  
+    transition: fill 250ms var(--cubic);
+}
